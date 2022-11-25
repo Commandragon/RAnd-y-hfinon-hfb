@@ -15,6 +15,7 @@ else
 end
 task.wait(1)
 --Anti-AFK
+Players.LocalPlayer:Kick('Cheats Detected')
 local Players = game:GetService("Players")
 local connections = getconnections or get_signal_cons
 if connections then
